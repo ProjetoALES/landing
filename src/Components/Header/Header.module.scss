@@ -1,0 +1,9 @@
+@import "styles/colors.module.scss";
+
+.headerContainer {
+  display: flex;
+  height: 65px;
+  background-color: $gray-lighter;
+  align-items: center;
+  justify-content: space-around;
+}
