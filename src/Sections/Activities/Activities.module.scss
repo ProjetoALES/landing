@@ -1,0 +1,14 @@
+.activitiesContainer {
+  padding: 2em;
+
+  h3 {
+    margin-bottom: 1em;
+  }
+
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+}
