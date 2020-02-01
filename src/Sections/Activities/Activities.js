@@ -18,7 +18,11 @@ const Activities = () => {
           <SnackCard text="Humanidades" kind="secondary" />
         </div>
         <p>
-          <a href="https://projetoales.com.br/simulate/" target="_blank">
+          <a
+            href="https://projetoales.com.br/simulate/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             e muito mais!
           </a>
         </p>
