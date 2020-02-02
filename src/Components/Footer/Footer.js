@@ -2,6 +2,7 @@ import React from "react";
 
 import FacebookIcon from "assets/icons/facebook.svg";
 import InstagramIcon from "assets/icons/instagram.svg";
+import EmailIcon from "assets/icons/gmail.svg";
 import GitHubIcon from "assets/icons/github.svg";
 import styles from "./Footer.module.scss";
 
@@ -24,6 +25,9 @@ const Footer = () => (
         rel="noopener noreferrer"
       >
         <img src={InstagramIcon} alt="instagram icon" width="30" height="30" />
+      </a>
+      <a href="mailto:projetoales@gmail.com">
+        <img src={EmailIcon} alt="email icon" width="34" height="34" />
       </a>
       <a
         href="https://github.com/ProjetoALES"
