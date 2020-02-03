@@ -1,53 +1,76 @@
 @import "styles/colors.module.scss";
 
-.button {
+a {
   margin: 0.5em 0;
-  padding: 1em 2em;
-  border: none;
-  border-radius: 4px;
-  max-height: fit-content;
   font-size: 17px;
   font-weight: 600;
-  transition: 0.3s;
-}
-
-.primary {
-  background: $brand-blue;
-  color: $white;
-  &:hover {
-    background: darken($brand-blue, 10%);
+  .button {
+    width: 200px;
+    height: 55px;
+    border-radius: 4px;
+    transition: 0.3s;
+    border: none;
+    font-weight: 600;
   }
-}
 
-.primary-outline {
-  background: transparent;
-  color: $brand-blue;
-  border: 1px solid $brand-blue;
-  &:hover {
+  .primary {
     background: $brand-blue;
     color: $white;
+    border: none;
+    &:hover {
+      background: darken($brand-blue, 10%);
+    }
   }
-}
 
-.secondary {
-  background: $brand-yellow;
-  color: $white;
-  &:hover {
-    background: darken($brand-yellow, 15%);
+  .primary-outline {
+    background: transparent;
+    color: $brand-blue;
+    border: 1px solid $brand-blue;
+    &:hover {
+      background: $brand-blue;
+      color: $white;
+    }
   }
-}
 
-.secondary-outline {
-  background: transparent;
-  color: $brand-yellow;
-  border: 1px solid $brand-yellow;
-  &:hover {
+  .secondary {
     background: $brand-yellow;
     color: $white;
+    &:hover {
+      background: darken($brand-yellow, 15%);
+    }
+  }
+
+  .secondary-outline {
+    background: transparent;
+    color: $brand-yellow;
+    border: 1px solid $brand-yellow;
+    &:hover {
+      background: $brand-yellow;
+      color: $white;
+    }
+  }
+
+  .tertiary {
+    background: $gray-lighter;
+    color: $gray-darker;
+    &:hover {
+      background: darken($gray-lighter, 15%);
+    }
+  }
+
+  .tertiary-outline {
+    background: transparent;
+    color: $gray-lighter;
+    border: 1px solid $gray-lighter;
+    &:hover {
+      background: $gray-lighter;
+      color: $gray-dark;
+    }
   }
 }
 
-.tertiary {
-  background: $gray;
-  color: $gray-darker;
+@media only screen and (min-width: 1200px) {
+  a {
+    margin: 0 1em;
+  }
 }

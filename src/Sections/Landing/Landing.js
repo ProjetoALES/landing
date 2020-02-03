@@ -15,8 +15,21 @@ const Landing = () => {
         <h3 className={styles.subTitle}>e de graça \o/</h3>
       </div>
       <div className={styles.buttonsContainer}>
-        <Button text="Pré-Matrícula" kind="secondary" />
-        <Button text="Nossas Matérias" kind="secondary-outline" />
+        <Button
+          text="Pré-Matrícula"
+          kind="secondary"
+          to="https://forms.gle/DGzCTpjwjP8BRXKv6"
+        />
+        <Button
+          text="Nossas Matérias"
+          kind="secondary-outline"
+          to="https://projetoales.com.br/simulate"
+        />
+        <Button
+          text="Quero ser voluntário!"
+          kind="tertiary-outline"
+          to="https://tiny.cc/projeto-ales"
+        />
       </div>
     </div>
   );
